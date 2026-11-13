@@ -1,0 +1,11 @@
+pair_start,flag,part,n,est_pts_or_corr,ci_lo_pts,ci_hi_pts
+2024,all,"corr(whiff_gap, command)",661,0.667,,
+2024,OUTPERF,high command,36,-3.269,-5.187,-1.372
+2024,OUTPERF,low command,36,-2.846,-4.717,-0.769
+2024,UNDER,high command,20,-0.667,-2.87,1.311
+2024,UNDER,low command,20,2.193,-0.476,5.404
+2025,all,"corr(whiff_gap, command)",707,0.676,,
+2025,OUTPERF,high command,34,-2.505,-4.46,-0.631
+2025,OUTPERF,low command,34,-2.735,-4.61,-0.655
+2025,UNDER,high command,31,2.523,0.963,4.119
+2025,UNDER,low command,30,2.115,0.016,4.159

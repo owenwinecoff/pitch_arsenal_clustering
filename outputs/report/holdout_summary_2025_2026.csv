@@ -1,0 +1,8 @@
+model,rmse,mae,corr,rmse_gain_shape_vs_baseline,flag,n,metric,estimate,ci_lo,ci_hi
+naive (last year's whiff),0.0547,0.0421,0.822,,,,,,,
+baseline (regressed whiff),0.0497,0.0392,0.839,,,,,,,
+shape model (whiff + xwhiff),0.0492,0.0387,0.843,0.0005 (0.0002 to 0.0009),,,,,,
+,,,,,UNDER,82.0,"whiff rate change, flagged minus control",0.0288,0.0171,0.0413
+,,,,,UNDER,82.0,"shrunk RV/100 change, flagged minus control",0.54,0.414,0.684
+,,,,,OUTPERF,88.0,"whiff rate change, flagged minus control",-0.0069,-0.0196,0.0061
+,,,,,OUTPERF,88.0,"shrunk RV/100 change, flagged minus control",-0.574,-0.706,-0.452

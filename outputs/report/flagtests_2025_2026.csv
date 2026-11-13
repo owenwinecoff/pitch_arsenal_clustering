@@ -1,0 +1,9 @@
+train->test,flag,n,metric,estimate,ci_lo,ci_hi
+2025->2026,platoon,214,slope of test gap on train gap,0.219,0.053,0.364
+2025->2026,platoon,54,share where weak side stays weak side (top-quartile gaps),0.648,0.519,0.778
+2025->2026,costly pitch,41,test-year RV/100 vs pitch-type avg: flagged minus unflagged heavy-use,-0.348,-0.684,-0.009
+2025->2026,command,825,year-to-year correlation of command score,0.618,0.552,0.679
+2025->2026,command,825,RMSE gain predicting next-year whiff: adding location-aware expected whiff,0.0002,-0.0003,0.0007
+2025->2026,contact luck,222,RMSE gain predicting next-year wOBA on contact: adding expected wOBA,0.0004,-0.0007,0.0014
+2025->2026,contact luck,34,next-year wOBA-on-contact change vs matched controls: unlucky (actual above expected),-0.0029,-0.0234,0.0138
+2025->2026,contact luck,32,next-year wOBA-on-contact change vs matched controls: lucky (actual below expected),0.0165,-0.001,0.0331
